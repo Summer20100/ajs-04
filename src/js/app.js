@@ -7,13 +7,13 @@ console.log(sum([1, 2]));
 
 export function healthLine(hero) {
   let damage;
-    if (hero.health <= 15) {
-      damage = 'critical';
-    } else if (hero.health < 50) {
-      damage = 'wounded';
-    } else {
-      damage = 'healthy';
-    }
+  if (hero.health <= 15) {
+    damage = 'critical';
+  } else if (hero.health < 50) {
+    damage = 'wounded';
+  } else {
+    damage = 'healthy';
+  }
   return damage;
 }
 
